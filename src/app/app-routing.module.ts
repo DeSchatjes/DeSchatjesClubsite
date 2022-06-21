@@ -4,8 +4,8 @@ import { AboutUsPageComponent } from './components/about_us/about-us-page/about-
 import {HomePageComponent} from "./components/home/home-page/home-page.component";
 
 const routes: Routes = [
-  { path: 'over-ons', component: AboutUsPageComponent },
-  { path: '', component: HomePageComponent}
+  { path: '', component: HomePageComponent},
+  { path: 'over-ons', component: AboutUsPageComponent }
 ]
 
 @NgModule({
